@@ -1,0 +1,24 @@
+/* should fail */
+.icon-large {
+  color: red;
+}
+.great-class {
+  .hover {
+    color: red;
+  }
+}
+
+/* should pass */
+.cool-really-good-selector {
+  color: green;
+
+  .nested {
+    color: green;
+  }
+}
+.information {
+  color: green;
+}
+#icon-large {
+  color: red;
+}
