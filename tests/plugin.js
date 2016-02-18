@@ -9,7 +9,7 @@ define(function (require) {
     name: 'polish-banned-selectors',
 
     message: function () {
-      assert.strictEqual(plugin.message({ error : { message : '.icon-xlarge' } }), '".icon-xlarge" is a banned class. It\'s either too general or collides with one of our utility classes.');
+      assert.strictEqual(plugin.message({ error : { message : '.icon-xlarge' } }), '".icon-xlarge" is a banned class. This probably means it\'s too general or collides with a naming convention.');
     }
   });
 
